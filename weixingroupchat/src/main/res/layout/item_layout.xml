@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smt.weixingroupchat.GroupChatHead
+        android:id="@+id/head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/head"
+        android:text="测试群组"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/head"
+        android:text="你们周六都去哪里玩啊？"
+        android:textColor="#4F97A4"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_marginEnd="10dp"
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="10:10"
+        android:textColor="#4F97A4"
+        android:layout_marginBottom="15dp"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
