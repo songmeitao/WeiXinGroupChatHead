@@ -12,4 +12,4 @@ Blog：http://blog.csdn.net/Android_Ku_Ku
 ##Effect display：
 
 
-![](https://github.com/songmeitao/SpecialEffectsView/blob/master/SpecialEffectsButton.gif) 
+
