@@ -7,7 +7,6 @@ import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,10 +41,6 @@ public class GroupChatHead extends View {
      * 每一个小头像的高度
      */
     private int mOneHeigth;
-    /**
-     * 间距
-     */
-    private int mSpacing = 15;
 
     public GroupChatHead(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
@@ -87,13 +82,7 @@ public class GroupChatHead extends View {
                 mOneHeigth = mHeigth;
                 break;
             case 2:
-                mOneWidth = mWidth / 2;
-                mOneHeigth = mHeigth / 2;
-                break;
             case 3:
-                mOneWidth = mWidth / 2;
-                mOneHeigth = mHeigth / 2;
-                break;
             case 4:
                 mOneWidth = mWidth / 2;
                 mOneHeigth = mHeigth / 2;
@@ -292,16 +281,5 @@ public class GroupChatHead extends View {
         //重绘
         invalidate();
     }
-
-
-    /**
-     * 设置间距
-     *
-     * @param spacing
-     */
-    public void setSpacing(int spacing) {
-        mSpacing = spacing;
-    }
-
 
 }
